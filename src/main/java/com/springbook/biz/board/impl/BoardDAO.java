@@ -18,7 +18,7 @@ public class BoardDAO {
 	
 	public void insertBoard(BoardVO vo) {
 		mybatis.insert("BoardDAO.insertBoard",vo);
-//		mybatis.insert("BoardDAO.insertBoard"); //일케 하니 null 들어감 //한글2
+//		mybatis.insert("BoardDAO.insertBoard"); //일케 하니 null 들어감 //한글2//
 		mybatis.commit();
 	}
 	
